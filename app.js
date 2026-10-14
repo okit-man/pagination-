@@ -3,6 +3,7 @@ import fetchFollower from "./fetchfollowers.js";
 import displayFollower from "./displayfollowers.js"
 import paginate from "./paginate.js"
 import displayButtons from "./displayButton.js"; 
+
 //  get DOM document
 const title = document.querySelector(".section-title h1");
 const btnContainer = document.querySelector(".btn-container");
@@ -31,7 +32,6 @@ btnContainer.addEventListener('click', function (e) {
     if (e.target.classList.contains('btn-container')) return
 
     if (e.target.classList.contains('page-btn')) {
-    //   console.log(e.target.dataset.index);
     index = parseInt(e.target.dataset.index);
     }
 

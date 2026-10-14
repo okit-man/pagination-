@@ -1,5 +1,4 @@
-// const url = "https://api.github.com/users/john-smilga/followers?per_page=100";
-
+// fetching data from api
 const url = "https://api.github.com/users/john-smilga/followers?per_page=100";
 
 const fetchFollowers = async() => {
